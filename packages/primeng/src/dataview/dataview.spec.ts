@@ -819,7 +819,7 @@ describe('DataView', () => {
 
         it('should show custom loading icon', async () => {
             component.loading = true;
-            component.loadingIcon = ' pi-spinner';
+            component.loadingIcon = 'pi-spinner';
             fixture.changeDetectorRef.markForCheck();
             await fixture.whenStable();
 
